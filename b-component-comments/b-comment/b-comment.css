@@ -1,0 +1,60 @@
+.b-comment {
+    position: relative;
+    width: 600px;
+}
+
+.comment__container {
+    position: relative;
+
+    width: 600px;
+    height: 90px;
+
+    border: 1px dashed  green;
+}
+
+.b-comment_margin {
+    margin: 5px 15px;
+}
+
+.comment__user-avatar {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+
+    border: 1px solid red;
+}
+
+
+.comment__text {
+    position: absolute;
+    top: 5px;
+
+    width: 490px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+
+.comment__likes {
+    position: absolute;
+    right: 65px;
+    bottom: 5px;
+}
+
+
+.comment__count-likes {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+
+    padding: 3px 7px;
+
+    border-radius: 15px;
+    background-color: #d3d3d3;
+}
+
+.comment__count-likes_hidden {
+    visibility: hidden;
+}

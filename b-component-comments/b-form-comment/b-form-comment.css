@@ -1,0 +1,33 @@
+.b-form-comment {
+    position: relative;
+
+    width: 600px;
+    height: 220px;
+
+    border: 1px dashed  green;
+}
+
+.b-form-comment__content {
+    margin: 5px 5px;
+}
+
+
+.b-form-comment__user-avatar {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+
+    border: 1px solid red;
+}
+
+
+.b-form-comment__text-field {
+    position: relative;
+    top: -100px;
+
+    margin-left: 100px;
+}
+
+

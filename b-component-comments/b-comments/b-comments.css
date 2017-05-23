@@ -1,0 +1,27 @@
+.b-comments{
+    border: 1px solid red;
+    position: relative;
+    width: 650px;
+}
+
+
+.b-comments__header{
+    border: 1px solid red;
+    width:100%;
+    height:50px;
+}
+
+.b-comments__counter {
+    vertical-align:middle;
+    font-size:18px;
+    padding-left: 18px;
+}
+
+
+.b-comments__centerer {
+    display:inline-block;
+    height:100%;
+    width:0;
+    overflow:hidden;
+    vertical-align:middle;
+}
